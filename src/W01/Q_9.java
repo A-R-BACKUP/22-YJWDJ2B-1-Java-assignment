@@ -23,6 +23,10 @@ public class Q_9 {
                     System.out.printf(a + " * " + b + " = " + (a * b));
                     break;
                 case "/" :
+                    if (a == 0 || b == 0) {
+                        System.out.print("0 나눗셈 불가");
+                        break;
+                    }
                     System.out.printf(a + " / " + b + " = " + (a / b));
                     break;
             }
