@@ -6,7 +6,7 @@ public class Q_3 {
     public static void main(String[] args) {
         long a = 0, b = 1, c;
 
-        System.out.print(a + " " + b + " ");
+        System.out.print(b + " ");
 
         for(int i = 2; i <= 10; i++){
             c = a + b;
