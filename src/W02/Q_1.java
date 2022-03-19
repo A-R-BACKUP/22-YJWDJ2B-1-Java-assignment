@@ -10,10 +10,10 @@ public class Q_1 {
         int total = 0;
         for (int num = 1; num <= 100; num++){
             sum += num;
-            // System.out.println(sum + "  sum <-> num  " + num);
+            // System.out.println(sum + "  sum <-> num  " + num); // 체크용
             total += sum;
-            // System.out.println(num + "'s total: " + total);
-            // System.out.println();
+            // System.out.println(num + "'s total: " + total); // 체크용
+            // System.out.println(); // 체크용
         }
         System.out.println("합은: " + total);
     }
