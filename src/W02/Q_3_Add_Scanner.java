@@ -21,9 +21,5 @@ public class Q_3_Add_Scanner {
         } else {
             System.out.println("error");
         }
-
-
-
-
     }
 }

@@ -1,7 +1,5 @@
 package W02;
 
-import java.util.Scanner;
-
 public class Q_3 {
     public static void main(String[] args) {
         long a = 0, b = 1, c;
