@@ -55,6 +55,6 @@ public class Q_1 {
 
         }
         
-        System.out.printf(cycles.length);
+        //System.out.printf(cycles.length);
     }
 }

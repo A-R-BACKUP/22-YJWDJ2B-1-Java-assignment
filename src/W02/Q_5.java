@@ -43,6 +43,6 @@ public class Q_5 {
                 sum++;
             }
         }
-        System.out.print("8의 갯수는" + sum);
+        System.out.print("8의 갯수는: " + sum);
     }
 }
