@@ -2,59 +2,52 @@ package W03;
 
 /*
 i를 900부터 1000까지 설정함
-n을 만들어 / 2를 한 값을 출력하게 할 예정
-array를 이용해 각 값의 길이를 누적해서 저장..?
-어렵다 어려워....
+n을 만들어주었고
  */
 
-public class Q_1 {
+public class Q_1{
     public static void main(String[] args) {
+        int count = 1;
+        int max_count = 0;
+        int temp = 0;
         for (int i = 900; i <= 1000; i++) {
             int n = i;
-            int temp = 0;
-            int[] cycles = new int[]{};
 
+            // 짝수일때
             if (n % 2 == 0) {
-                int x = 0;
                 while (n != 1) {
-                    if (n % 2 == 0 && n > 1){
-                        temp = (n / 2);
-                        cycles[x] = temp;
-                        //System.out.println(i + "'s temp" + temp + " ");
-                        n = temp;
+                    if (n % 2 == 0){
+                        n = (n / 2);
+                        count++;
+                        // System.out.println(i + "'s " + count);
                     }
-                    if (n % 2 != 0 && n > 1) {
-                        temp = (n * 3) + 1;
-                        cycles[x] = temp;
-                        //System.out.println(i + "'s temp" + temp + " ");
-                        n = temp;
-                    }
-                    x++;
-                }
-            }
-
-
-            if (n % 2 != 0) {
-                int x = 0;
-                while (n != 1) {
-                    if (n % 2 == 0 && n > 1){
-                        temp = (n / 2);
-                        cycles[x] = temp;
-                        //System.out.println(i + "'s temp" + temp + " ");
-                        n = temp;
-                    }
-                    if (n % 2 != 0 && n > 1) {
-                        temp = (n * 3) + 1;
-                        cycles[x] = temp;
-                        //System.out.println(i + "'s temp" + temp + " ");
-                        n = temp;
+                    else if (n % 2 != 0) {
+                        n = (n * 3) + 1;
+                        count++;
                     }
                 }
             }
 
+            // 홀수일때
+            else if (n % 2 != 0) {
+                while (n != 1) {
+                    if (n % 2 == 0){
+                        n = (n / 2);
+                        count++;
+                    }
+                    else if (n % 2 != 0) {
+                        n = (n * 3) + 1;
+                        count++;
+                    }
+                }
+            }
 
+            if (count > max_count) {
+                max_count = count;
+            }
+            count = 1;
         }
-        
-        //System.out.printf(cycles.length);
+
+        System.out.println(max_count);
     }
 }
