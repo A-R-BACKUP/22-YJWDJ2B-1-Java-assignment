@@ -5,7 +5,7 @@ package W02;
  */
 import java.util.Scanner;
 
-public class Q_6 {
+public class W02_Q_6 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("자연수 입력: ");

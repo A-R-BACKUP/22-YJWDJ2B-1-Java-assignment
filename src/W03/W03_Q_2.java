@@ -2,7 +2,7 @@ package W03;
 
 import java.util.ArrayList;
 
-public class Q_2 {
+public class W03_Q_2 {
     public static void main(String[] args) {
         int n = 0;
         int sum = 0;

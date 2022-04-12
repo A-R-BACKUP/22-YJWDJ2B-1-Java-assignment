@@ -15,12 +15,12 @@ class MyDate{
 
 public class W05_Q_1 {
     public static void main(String[] args) {
-        MyDate p = new MyDate();
-        p.year =2012;
-        p.month = 7;
-        p.monthly = "July";
-        p.day = 12;
-        System.out.println(p.print1());
-        System.out.print(p.print2());
+        MyDate pd = new MyDate();
+        pd.year = 2012;
+        pd.month = 7;
+        pd.monthly = "July";
+        pd.day = 12;
+        System.out.println(pd.print1());
+        System.out.print(pd.print2());
     }
 }

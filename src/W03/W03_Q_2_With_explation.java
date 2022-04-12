@@ -12,7 +12,7 @@ package W03;
 
 import java.util.*;
 
-public class Q_2_With_explation {
+public class W03_Q_2_With_explation {
     public static void main(String[] args) {
         int n = 0;
         int sum = 0;

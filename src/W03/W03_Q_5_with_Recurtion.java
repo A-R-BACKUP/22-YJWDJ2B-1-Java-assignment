@@ -3,7 +3,7 @@ package W03;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Q_5_with_Recurtion {
+public class W03_Q_5_with_Recurtion {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("문자열 입력: ");

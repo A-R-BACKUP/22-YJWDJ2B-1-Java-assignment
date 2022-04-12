@@ -5,7 +5,7 @@ i를 900부터 1000까지 설정함
 n을 만들어주었고
  */
 
-public class Q_1{
+public class W03_Q_1 {
     public static void main(String[] args) {
         int count = 1;
         int max_count = 0;

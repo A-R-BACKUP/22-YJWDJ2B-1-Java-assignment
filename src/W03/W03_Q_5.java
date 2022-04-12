@@ -13,7 +13,7 @@ Ex) 문자열 입력: Tenet
 
 import java.util.Scanner;
 
-public class Q_5 {
+public class W03_Q_5 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("문자열 입력: "); // 문자열 입력 받기

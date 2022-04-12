@@ -2,7 +2,7 @@ package W02;
 
 import java.util.Scanner;
 
-public class Q_3_Add_Scanner {
+public class W02_Q_3_Add_Scanner {
     public static void main(String[] args) {
         long a = 0, b = 1, c;
         Scanner sc = new Scanner(System.in);

@@ -2,7 +2,7 @@ package W03;
 
 import java.util.Scanner;
 
-public class Q_6 {
+public class W03_Q_6 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.print("숫자 입력: ");

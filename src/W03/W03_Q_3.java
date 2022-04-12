@@ -2,7 +2,7 @@ package W03;
 
 import java.util.*;
 
-public class Q_3 {
+public class W03_Q_3 {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
     System.out.println("10진수 입력: ");

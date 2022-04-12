@@ -25,7 +25,7 @@ i / 10^(k - 1)) % 10를 응용해 각 자리수(k)에 8이 일치하는지 확�
 
  */
 
-public class Q_5 {
+public class W02_Q_5 {
     public static void main(String[] args) {
         int sum = 0;
         int e = 8; // i / 10^(k - 1)) % 10를 사용시 결과값이 소수로 나오므로 int로 맞춰준다.

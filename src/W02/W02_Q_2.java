@@ -1,7 +1,7 @@
 package W02;
 
 
-public class Q_2 {
+public class W02_Q_2 {
     public static void main(String[] args) {
         int check = 0;
         for (int i = 2; i <= 100; i++) {

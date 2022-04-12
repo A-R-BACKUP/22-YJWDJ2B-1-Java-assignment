@@ -2,7 +2,7 @@ package W02;
 
 import java.util.Scanner;
 
-public class Q_4 {
+public class W02_Q_4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("n을 입력하시오: "); // n 입력 받기

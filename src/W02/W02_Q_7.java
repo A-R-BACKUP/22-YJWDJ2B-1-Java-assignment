@@ -10,7 +10,7 @@ package W02;
 - 하는 부분을 묶고 덧셈하는 것을 반복한다.
  */
 
-public class Q_7 {
+public class W02_Q_7 {
     public static void main(String[] args) {
         double nume = 4; // 분자값
         double deno = 1; // 분모값
