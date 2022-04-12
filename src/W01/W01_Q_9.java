@@ -2,7 +2,7 @@ package W01;
 
 import java.util.Scanner;
 
-public class Q_9 {
+public class W01_Q_9 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.printf("+, -, *, / 중 원하는 작업 입력: ");

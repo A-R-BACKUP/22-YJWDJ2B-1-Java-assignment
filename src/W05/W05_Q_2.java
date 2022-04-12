@@ -9,7 +9,7 @@ class ComplexNumber{
     }
 }
 
-public class Q_2 {
+public class W05_Q_2 {
     public static void main(String[] args) {
         ComplexNumber cn = new ComplexNumber();
         cn.real = 10;

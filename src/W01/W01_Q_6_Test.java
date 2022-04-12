@@ -1,6 +1,6 @@
 package W01;
 
-public class Q_6_Test {
+public class W01_Q_6_Test {
     public static void main(String[] args) {
         for (int num = 1; num <= 99; num++) {
             if (num >= 1 && num <= 99){

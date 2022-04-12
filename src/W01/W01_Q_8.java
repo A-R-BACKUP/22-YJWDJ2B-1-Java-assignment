@@ -2,7 +2,7 @@ package W01;
 
 import java.util.Scanner;
 
-public class Q_8 {
+public class W01_Q_8 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.printf("영문자 하나 입력: ");

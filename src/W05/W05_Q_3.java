@@ -13,7 +13,7 @@ class Moive{
     }
 }
 
-public class Q_3 {
+public class W05_Q_3 {
     public static void main(String[] args) {
         Moive mv = new Moive();
         mv.title = "7번방의 선물";

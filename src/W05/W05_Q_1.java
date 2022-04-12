@@ -13,7 +13,7 @@ class MyDate{
     }
 }
 
-public class Q_1 {
+public class W05_Q_1 {
     public static void main(String[] args) {
         MyDate p = new MyDate();
         p.year =2012;

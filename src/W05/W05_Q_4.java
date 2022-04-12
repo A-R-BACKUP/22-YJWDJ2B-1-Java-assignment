@@ -2,7 +2,7 @@ package W05;
 
 import java.util.Scanner;
 
-public class Q_4 {
+public class W05_Q_4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int year;
